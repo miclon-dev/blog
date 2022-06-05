@@ -1,6 +1,6 @@
 # Hello VuePress
 <!-- 相对路径 -->
-[首页123](../README.md)  
+[123首页123](../README.md)  
 [配置参考](../reference/config.md)  
 [快速上手](./getting-started.md)  
 <!-- 绝对路径 -->
