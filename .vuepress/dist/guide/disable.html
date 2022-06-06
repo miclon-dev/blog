@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.46" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <meta property="og:url" content="https://vuepress-theme-hope-v2-demo.mrhope.site/person-doc/guide/disable.html"><meta property="og:site_name" content="主题演示"><meta property="og:title" content="布局与功能禁用"><meta property="og:type" content="article"><meta property="og:updated_time" content="2022-06-06T06:07:06.000Z"><meta property="og:locale" content="zh-CN"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2022-06-06T06:07:06.000Z"><title>布局与功能禁用 | 主题演示</title><meta name="description" content="vuepress-theme-hope 的演示">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background-color: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="stylesheet" href="/person-doc/assets/style.852a1613.css">
+    <link rel="modulepreload" href="/person-doc/assets/app.17b74f3c.js"><link rel="modulepreload" href="/person-doc/assets/disable.html.a307a1e1.js"><link rel="modulepreload" href="/person-doc/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/person-doc/assets/disable.html.d3c7a81b.js"><link rel="prefetch" href="/person-doc/assets/index.html.eb9674e0.js"><link rel="prefetch" href="/person-doc/assets/home.html.a09b4dca.js"><link rel="prefetch" href="/person-doc/assets/slide.html.9ddad8c0.js"><link rel="prefetch" href="/person-doc/assets/index.html.e27ea430.js"><link rel="prefetch" href="/person-doc/assets/encrypt.html.b4466eb0.js"><link rel="prefetch" href="/person-doc/assets/markdown.html.378bac15.js"><link rel="prefetch" href="/person-doc/assets/page.html.c8ab79c4.js"><link rel="prefetch" href="/person-doc/assets/404.html.fa8334b6.js"><link rel="prefetch" href="/person-doc/assets/index.html.e6352e0b.js"><link rel="prefetch" href="/person-doc/assets/index.html.7921808f.js"><link rel="prefetch" href="/person-doc/assets/index.html.7ed99ca2.js"><link rel="prefetch" href="/person-doc/assets/index.html.bd455160.js"><link rel="prefetch" href="/person-doc/assets/index.html.15ed513b.js"><link rel="prefetch" href="/person-doc/assets/index.html.0986fa81.js"><link rel="prefetch" href="/person-doc/assets/index.html.f691656a.js"><link rel="prefetch" href="/person-doc/assets/index.html.8e437eca.js"><link rel="prefetch" href="/person-doc/assets/index.html.33e47adc.js"><link rel="prefetch" href="/person-doc/assets/index.html.ca5036f1.js"><link rel="prefetch" href="/person-doc/assets/index.html.d1f62938.js"><link rel="prefetch" href="/person-doc/assets/index.html.5d84b916.js"><link rel="prefetch" href="/person-doc/assets/index.html.a57c7826.js"><link rel="prefetch" href="/person-doc/assets/index.html.06766c0d.js"><link rel="prefetch" href="/person-doc/assets/home.html.d257b935.js"><link rel="prefetch" href="/person-doc/assets/slide.html.f357090b.js"><link rel="prefetch" href="/person-doc/assets/index.html.dd3cdb8d.js"><link rel="prefetch" href="/person-doc/assets/encrypt.html.99238171.js"><link rel="prefetch" href="/person-doc/assets/markdown.html.99f60fa0.js"><link rel="prefetch" href="/person-doc/assets/page.html.e04492e0.js"><link rel="prefetch" href="/person-doc/assets/404.html.671da5e4.js"><link rel="prefetch" href="/person-doc/assets/index.html.4cde85e3.js"><link rel="prefetch" href="/person-doc/assets/index.html.c7cd1cc2.js"><link rel="prefetch" href="/person-doc/assets/index.html.991182a8.js"><link rel="prefetch" href="/person-doc/assets/index.html.5b63c9d8.js"><link rel="prefetch" href="/person-doc/assets/index.html.bfd99e76.js"><link rel="prefetch" href="/person-doc/assets/index.html.e2555c22.js"><link rel="prefetch" href="/person-doc/assets/index.html.d83fb483.js"><link rel="prefetch" href="/person-doc/assets/index.html.bac1580f.js"><link rel="prefetch" href="/person-doc/assets/index.html.e60a2523.js"><link rel="prefetch" href="/person-doc/assets/index.html.fb53c27d.js"><link rel="prefetch" href="/person-doc/assets/index.html.5767f3b8.js"><link rel="prefetch" href="/person-doc/assets/index.html.9f7b8f20.js"><link rel="prefetch" href="/person-doc/assets/index.html.1aed3787.js"><link rel="prefetch" href="/person-doc/assets/404.0f8373cc.js"><link rel="prefetch" href="/person-doc/assets/Layout.cfbdde53.js"><link rel="prefetch" href="/person-doc/assets/Slide.d606f980.js"><link rel="prefetch" href="/person-doc/assets/Blog.c12e8bd8.js"><link rel="prefetch" href="/person-doc/assets/giscus.es.3ebf3da4.js"><link rel="prefetch" href="/person-doc/assets/auto.esm.52abc6cc.js"><link rel="prefetch" href="/person-doc/assets/index.c30f76d2.js"><link rel="prefetch" href="/person-doc/assets/index.e1c5a3de.js"><link rel="prefetch" href="/person-doc/assets/mermaid.esm.min.35088203.js"><link rel="prefetch" href="/person-doc/assets/highlight.esm.9b852bc5.js"><link rel="prefetch" href="/person-doc/assets/markdown.esm.77e8db25.js"><link rel="prefetch" href="/person-doc/assets/math.esm.cb9d4be3.js"><link rel="prefetch" href="/person-doc/assets/notes.esm.62c5f19d.js"><link rel="prefetch" href="/person-doc/assets/reveal.esm.41ec5d7f.js"><link rel="prefetch" href="/person-doc/assets/search.esm.04894411.js"><link rel="prefetch" href="/person-doc/assets/zoom.esm.78977eba.js"><link rel="prefetch" href="/person-doc/assets/photoswipe.esm.2debdee5.js">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="skip-link sr-only">Skip to content</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!--[--><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow left"></span></div><aside class="sidebar"><!--[--><!----><!--]--><ul class="sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main class="page" id="main-content"><!--[--><!----><nav class="breadcrumb disable"></nav><div class="page-title"><h1><span class="icon iconfont icon-config" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!----><footer class="page-meta"><!----><!----><!----></footer><!----><div class="giscus-wrapper input-top" style="display:none;">Loading...</div><!----><!--]--></main><!--]--><!----><!--]--></div><!--]--><!----><!--]--></div>
+    <script type="module" src="/person-doc/assets/app.17b74f3c.js" defer></script>
+  </body>
+</html>
