@@ -2,3 +2,13 @@ node_modules
 .idea
 .temp
 .cache
+
+node_modules/
+theme/.vuepress/.cache/
+theme/.vuepress/.temp/
+theme/.vuepress/dist/
+
+node_modules/
+./.vuepress/.cache/
+./.vuepress/.temp/
+./.vuepress/dist/
