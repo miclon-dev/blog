@@ -2,8 +2,6 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar([
   "/",
-  "/home",
-  "/slide",
   {
     text: "如何使用",
     icon: "creative",
@@ -12,35 +10,24 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "文章",
-    icon: "note",
+    text: "学习笔记",
+    icon: "article",
     prefix: "/posts/",
     children: [
       {
-        text: "文章 1-4",
-        icon: "note",
+        text: "python",
+        icon: "python",
         collapsable: true,
-        prefix: "article/",
-        children: ["article1", "article2", "article3", "article4"],
+        prefix: "python/",
+        children: "structure",
       },
       {
-        text: "文章 5-12",
-        icon: "note",
-        children: [
-          {
-            text: "文章 5-8",
-            icon: "note",
-            collapsable: true,
-            prefix: "article/",
-            children: ["article5", "article6", "article7", "article8"],
-          },
-          {
-            text: "文章 9-12",
-            icon: "note",
-            children: ["article9", "article10", "article11", "article12"],
-          },
-        ],
-      },
+        text: "Vue",
+        icon: "vue",
+        collapsable: true,
+        prefix: "vue/",
+        children: "structure",
+      }
     ],
   },
 ]);
