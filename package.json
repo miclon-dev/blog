@@ -4,7 +4,7 @@
   "description": "miclon's blog",
   "license": "MIT",
   "scripts": {
-    "docs:build": "vuepress build .",
+    "docs:build": "vuepress build",
     "docs:clean-dev": "vuepress dev . --clean-cache",
     "docs:dev": "vuepress dev ."
   },
