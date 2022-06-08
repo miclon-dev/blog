@@ -6,12 +6,12 @@ title: 主页
 heroImage: /logo.svg
 heroText: MicLon's Blog
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 自律给我自由
 projects:
   - icon: project
     name: 项目名称
     desc: 项目详细描述
-    link: https://你的项目链接
+    link: https://github.com/mic1on
 
   - icon: link
     name: 链接名称

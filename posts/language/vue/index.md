@@ -11,3 +11,7 @@ date: 2022-02-22
 category:
 - vue
 ---
+
+- [Vue3自动路由注册](vue3-auto-route-registration.md)
+
+- [Vue3使用本地svg渲染icon](vue3-ues-local-svg.md)

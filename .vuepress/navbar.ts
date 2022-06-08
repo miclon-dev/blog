@@ -40,6 +40,18 @@ export default navbar([
       }
     ],
   },
+  {
+    text: "杂项",
+    icon: "file",
+    prefix: "/posts/other/",
+    children: [
+      {
+        text: "逆向",
+        icon: "lock",
+        link: "reverse/"
+      }
+    ]
+  }
   // {
   //   text: "阅读笔记",
   //   link: "/"
