@@ -7,9 +7,9 @@ export default navbar([
     icon: "home"
   },
   {
-    text: "学习笔记",
+    text: "语言",
     icon: "article",
-    prefix: "/posts/",
+    prefix: "/posts/language/",
     children: [
       {
         text: "Python",
@@ -24,7 +24,24 @@ export default navbar([
     ],
   },
   {
-    text: "阅读笔记",
-    link: "/"
-  }
+    text: "框架",
+    icon: "support",
+    prefix: "/posts/framework/",
+    children: [
+      {
+        text: "django",
+        icon: "django",
+        link: "django/"
+      },
+      {
+        text: "scrapy",
+        icon: "scrapy",
+        link: "scrapy/"
+      }
+    ],
+  },
+  // {
+  //   text: "阅读笔记",
+  //   link: "/"
+  // }
 ]);

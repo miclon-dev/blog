@@ -1,12 +1,18 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "MicLon's Blog",
+  description: "米乐的个人博客",
 
   base: "/",
 
   theme,
+  plugins: [
+    searchPlugin({
+
+    })
+  ]
 });
