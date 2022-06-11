@@ -1,4 +1,6 @@
 import { defineUserConfig } from "vuepress";
+const { path } = require('@vuepress/utils')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -8,5 +10,10 @@ export default defineUserConfig({
 
   base: "/",
 
-  theme
+  theme,
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    })
+  ]
 });

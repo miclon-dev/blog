@@ -38,4 +38,6 @@ export default sidebar({
   "/posts/framework/scrapy/": "structure",
   "/posts/framework/django/": "structure",
   "/posts/other/reverse/": "structure",
+  "/posts/other/read/": "structure",
+  "/posts/other/git/": "structure",
 })

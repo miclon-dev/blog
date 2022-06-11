@@ -12,3 +12,5 @@ date: 2022-01-01
 - [DRF源码学习-Authentication](drf-authentication.md)
 
 - [DRF源码学习-Permission](drf-permission.md)
+
+- [DRF源码学习-Throttling](drf-throttling.md)

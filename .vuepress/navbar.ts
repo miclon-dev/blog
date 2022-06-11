@@ -49,6 +49,21 @@ export default navbar([
         text: "逆向",
         icon: "lock",
         link: "reverse/"
+      },
+      {
+        text: "阅读",
+        icon: "read",
+        link: "read/"
+      },
+      {
+        text: "git",
+        icon: "git",
+        link: "git/"
+      },
+      {
+        text: "docker",
+        icon: "docker",
+        link: "docker/"
       }
     ]
   }

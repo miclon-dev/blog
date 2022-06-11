@@ -2,12 +2,14 @@ lockfileVersion: 5.3
 
 specifiers:
   '@vuepress/client': ^2.0.0-beta.46
+  '@vuepress/plugin-register-components': ^2.0.0-beta.47
   vue: ^3.2.36
   vuepress: ^2.0.0-beta.46
   vuepress-theme-hope: ^2.0.0-beta.79
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.46
+  '@vuepress/plugin-register-components': 2.0.0-beta.47
   vue: 3.2.37
   vuepress: 2.0.0-beta.46_d33b0bfd89ac68aecb91abbe5a9417aa
   vuepress-theme-hope: 2.0.0-beta.79
@@ -1506,6 +1508,15 @@ packages:
       vue-router: 4.0.15_vue@3.2.37
     dev: true
 
+  /@vuepress/client/2.0.0-beta.47:
+    resolution: {integrity: sha512-GkNACDlkYm6r2vONPYws4CfEQ5x3yjDAGfmoRURQEjliJorW65BKAR+wgEnr4khC8uaR6CQV4dyrw9nplyvsZw==}
+    dependencies:
+      '@vue/devtools-api': 6.1.4
+      '@vuepress/shared': 2.0.0-beta.47
+      vue: 3.2.37
+      vue-router: 4.0.15_vue@3.2.37
+    dev: true
+
   /@vuepress/core/2.0.0-beta.46:
     resolution: {integrity: sha512-JFRpyg5R01Ujcpgym2aQwFmMU4FFQtRQxYQeOnLDHSEdo+U09I+OztBuVJvst3Xu99urqRH7Jo7yRL3igyXlAA==}
     dependencies:
@@ -1520,12 +1531,40 @@ packages:
       - supports-color
     dev: true
 
+  /@vuepress/core/2.0.0-beta.47:
+    resolution: {integrity: sha512-oYvckGMf6E1w3RIsAI8J6ImlAVKx17pLb8G6XoYn8QtwV4uOPPH+H+befOEgD1XPaHK4ouiNVdULOOSmoGaKJQ==}
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.47
+      '@vuepress/markdown': 2.0.0-beta.47
+      '@vuepress/shared': 2.0.0-beta.47
+      '@vuepress/utils': 2.0.0-beta.47
+      gray-matter: 4.0.3
+      toml: 3.0.0
+      vue: 3.2.37
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@vuepress/markdown/2.0.0-beta.46:
     resolution: {integrity: sha512-+lfpPXHRyVKDK0wzByK8syAjVp3H6XkExgRx/5FxCRTFDTnbJYNLRtUhHkEfRLdOahK/nD3qrGQvFjL6DDZN9w==}
     dependencies:
       '@types/markdown-it': 12.2.3
       '@vuepress/shared': 2.0.0-beta.46
       '@vuepress/utils': 2.0.0-beta.46
+      markdown-it: 13.0.1
+      markdown-it-anchor: 8.6.4_203ea4fed94a963ea5da6bb0985d1ff7
+      markdown-it-emoji: 2.0.2
+      mdurl: 1.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/markdown/2.0.0-beta.47:
+    resolution: {integrity: sha512-OdFvXThh1Q1Z9cM/kjUT+MkhiPfhpEwwur5wAtYvq7VtJYdjUiwz0uzPGG5Rrj4H7isxT3u3w8itVC5k8Dt9eQ==}
+    dependencies:
+      '@types/markdown-it': 12.2.3
+      '@vuepress/shared': 2.0.0-beta.47
+      '@vuepress/utils': 2.0.0-beta.47
       markdown-it: 13.0.1
       markdown-it-anchor: 8.6.4_203ea4fed94a963ea5da6bb0985d1ff7
       markdown-it-emoji: 2.0.2
@@ -1639,6 +1678,16 @@ packages:
       - supports-color
     dev: true
 
+  /@vuepress/plugin-register-components/2.0.0-beta.47:
+    resolution: {integrity: sha512-VxZgrZQsnnxYHzvQPP7Dk7gHwawf7AEx4iG3C2LFjsrOY+XG0AyrKMpZ6MThrPgh/JEXB9RfJ3YBKgCBqjVJig==}
+    dependencies:
+      '@vuepress/core': 2.0.0-beta.47
+      '@vuepress/utils': 2.0.0-beta.47
+      chokidar: 3.5.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@vuepress/plugin-theme-data/2.0.0-beta.46:
     resolution: {integrity: sha512-ULjBKvC1VTaokajqu9W2KTavH4m0/6NDt/BJn1QfKgb+lJYyn6ox3isTisFs3u268T600w4k7jid4ky/fvypbA==}
     dependencies:
@@ -1654,6 +1703,12 @@ packages:
 
   /@vuepress/shared/2.0.0-beta.46:
     resolution: {integrity: sha512-iqunwXZR3ea+36Cyz1QVP6F49CVhNxcYZFFxpSOi5Z5j9S4qiZm+fL931w8XHz70qpgwmfBFUOZBGqsMMLVuRg==}
+    dependencies:
+      '@vue/shared': 3.2.37
+    dev: true
+
+  /@vuepress/shared/2.0.0-beta.47:
+    resolution: {integrity: sha512-khy/+x5/A7A8IFevE0QF/fe9FsI9q9qEVacRn0lytgw0C50C1ITCLWhAJ6sEq2jamj8dnqyRNbzzqSa3YelhLg==}
     dependencies:
       '@vue/shared': 3.2.37
     dev: true
@@ -1695,6 +1750,23 @@ packages:
       '@types/debug': 4.1.7
       '@types/fs-extra': 9.0.13
       '@vuepress/shared': 2.0.0-beta.46
+      chalk: 4.1.2
+      debug: 4.3.4
+      fs-extra: 10.1.0
+      globby: 11.1.0
+      hash-sum: 2.0.0
+      ora: 5.4.1
+      upath: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/utils/2.0.0-beta.47:
+    resolution: {integrity: sha512-c9+fP0chUuFRX+H0SyC56EKYYwiUebF/yACawxoh74i2ftxkagRNd7MWhbu8hqSU5utvfv/8a4hGX+O4p0a3Kg==}
+    dependencies:
+      '@types/debug': 4.1.7
+      '@types/fs-extra': 9.0.13
+      '@vuepress/shared': 2.0.0-beta.47
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
