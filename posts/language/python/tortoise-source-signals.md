@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: Tortoise源码阅读 - 信号
+title: Tortoise源码-信号
 # 这是页面的图标
 icon: python
 # 这是侧边栏的顺序

@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: Tortoise源码阅读 - 数据库连接
+title: Tortoise源码-数据库连接
 # 这是页面的图标
 icon: python
 # 这是侧边栏的顺序
