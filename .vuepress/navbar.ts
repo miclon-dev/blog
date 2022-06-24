@@ -64,6 +64,11 @@ export default navbar([
         text: "docker",
         icon: "docker",
         link: "docker/"
+      },
+      {
+        text: "开源",
+        icon: "github",
+        link: "opensource/"
       }
     ]
   }

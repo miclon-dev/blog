@@ -40,4 +40,5 @@ export default sidebar({
   "/posts/other/reverse/": "structure",
   "/posts/other/read/": "structure",
   "/posts/other/git/": "structure",
+  "/posts/other/opensource/": "structure",
 })
