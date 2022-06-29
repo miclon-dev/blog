@@ -8,7 +8,7 @@ export default navbar([
   },
   {
     text: "语言",
-    icon: "article",
+    icon: "code",
     prefix: "/posts/language/",
     children: [
       {
@@ -25,7 +25,7 @@ export default navbar([
   },
   {
     text: "框架",
-    icon: "support",
+    icon: "frame",
     prefix: "/posts/framework/",
     children: [
       {
@@ -35,24 +35,24 @@ export default navbar([
       },
       {
         text: "scrapy",
-        icon: "scrapy",
+        icon: "spider",
         link: "scrapy/"
       }
     ],
   },
   {
     text: "杂项",
-    icon: "file",
+    icon: "other",
     prefix: "/posts/other/",
     children: [
       {
         text: "逆向",
-        icon: "lock",
+        icon: "recall",
         link: "reverse/"
       },
       {
         text: "阅读",
-        icon: "read",
+        icon: "read-fill",
         link: "read/"
       },
       {
