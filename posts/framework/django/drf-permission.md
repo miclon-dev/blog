@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: DRF源码学习-Permission
 # 这是页面的图标
-icon: python
+icon: django
 # 这是侧边栏的顺序
 order: 2
 # 设置写作时间

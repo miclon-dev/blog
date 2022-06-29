@@ -26,7 +26,7 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "自律给我自由",
 
   displayFooter: true,
 
@@ -34,7 +34,7 @@ export default hopeTheme({
 
   blog: {
     description: "一个编程爱好者",
-    intro: "/intro.html",
+    intro: "/",
     medias: {
       Github: "https://github.com/mic1on",
     },
