@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: MicLon's Blog
 heroFullScreen: true
 tagline: 自律给我自由
