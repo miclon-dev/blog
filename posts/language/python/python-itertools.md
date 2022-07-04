@@ -12,6 +12,7 @@ category:
 - python
 tag:
 - itertools
+isOriginal: true
 ---
 
 ### itertools.dropwhile

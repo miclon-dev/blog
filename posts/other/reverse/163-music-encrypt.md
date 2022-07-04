@@ -13,6 +13,7 @@ tag:
 sticky: true
 # 此页面会出现在文章收藏中
 star: true
+isOriginal: true
 ---
 
 ::: warning

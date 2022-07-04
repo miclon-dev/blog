@@ -1,6 +1,7 @@
 ---
 # 这是文章的标题
 title: Docker基础教程
+isOriginal: true
 ---
 
 ## 初始环境

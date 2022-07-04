@@ -1,6 +1,7 @@
 ---
 # 这是文章的标题
 title: 一晚上做了一个xpath终结者：xpath-helper-plus
+shortTitle: xpath-helper-plus
 # 这是页面的图标
 icon: chrome
 # 这是侧边栏的顺序
@@ -20,6 +21,7 @@ tag:
 sticky: true
 # 此页面会出现在文章收藏中
 star: true
+isOriginal: true
 ---
 
 ### 前言

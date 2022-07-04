@@ -12,6 +12,7 @@ category:
 - python
 tag:
 - settings
+isOriginal: true
 ---
 
 真正开发一个完整项目的时候，往往不同的环境存在不同的项目配置文件。当你在本地开发的时候，配置文件为`development.py`，生产环境时候的则是`production.py`。

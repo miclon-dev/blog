@@ -12,6 +12,7 @@ tag:
 sticky: true
 # 此页面会出现在文章收藏中
 star: true
+isOriginal: true
 ---
 
 # 编写高质量Python代码的90个有效方法（原书第2版）

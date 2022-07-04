@@ -13,6 +13,7 @@ category:
 # 一个页面可以有多个标签
 tag:
 - vuepress
+isOriginal: true
 ---
 
 记一次踩坑，由于[vuepress2.x官方文档](https://v2.vuepress.vuejs.org/zh/guide/markdown.html#%E5%9C%A8-markdown-%E4%B8%AD%E4%BD%BF%E7%94%A8-vue)的markdown中并未提及如何使用Vue组件。
