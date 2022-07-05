@@ -19,6 +19,7 @@ tag:
 sticky: true
 # 此页面会出现在文章收藏中
 star: true
+isOriginal: true
 ---
 ### 权限组件Permission
 > A base class from which all permission classes should inherit..

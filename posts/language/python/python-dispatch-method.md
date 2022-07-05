@@ -13,6 +13,7 @@ category:
 tag:
 - dispatch
 - 技巧
+sticky: true
 isOriginal: true
 ---
 
