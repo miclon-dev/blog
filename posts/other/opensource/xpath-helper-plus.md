@@ -10,9 +10,10 @@ order: 1
 date: 2022-06-24
 # 一个页面可以有多个分类
 category:
-- chrome
+- 开源
 # 一个页面可以有多个标签
 tag:
+- chrome
 - extension
 - vue
 - xpath
