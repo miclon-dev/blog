@@ -15,3 +15,5 @@ category:
 - [Vue3自动路由注册](vue3-auto-route-registration.md)
 
 - [Vue3使用本地svg渲染icon](vue3-ues-local-svg.md)
+
+- [一文了解directive](vue3-directive.md)
