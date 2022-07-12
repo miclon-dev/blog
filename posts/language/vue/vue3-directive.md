@@ -74,3 +74,51 @@ const flag = ref(false)
     </div>
 </template>
 ```
+
+## 应用场景：按钮级权限控制
+
+在实际开发中，我们可能会有一些按钮需要根据用户的权限控制，比如：
+只有管理员角色才能拥有删除按钮的控制。
+
+> PS：当然，真正的权限控制应当是前后端一起做的，而不是前端来显示与否。前端只能防君子和优化体验。
+
+```vue
+<script setup>
+// mock 我的权限是 edit
+const myPermissions = ['edit']
+
+// 判断是否有权限
+const hasPermission = permission => {
+    return myPermissions.some(item => item === permission)
+}
+const auth = value => {
+    if (typeof value === 'string') {
+        return hasPermission(value)
+    } else {
+        return value.some(item => {
+            return hasPermission(item)
+        })
+    }
+}
+const vAuth = {
+    mounted: (el, binding) => {
+        if (!auth(binding.value)) {
+            // 如果没权限直接删除节点
+            el.remove()
+        }
+    }
+}
+
+</script>
+<template>
+    <div>
+        <page-header title="123" />
+        <page-main>
+            <!-- 删除按钮需要admin才有权限 -->
+            <el-button v-auth="'admin'">删除</el-button>
+        </page-main>
+    </div>
+</template>
+```
+
+以上，由于我们的权限是edit，我们只有admin才能看到删除按钮。所以当前用户状态是无法操作删除的。
