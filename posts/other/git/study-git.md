@@ -214,3 +214,21 @@ git 中可以使用 git archive 进行打包操作
 将项目的 main 分支打包为 blog.zip
 
 > git archive --format zip --output blog.zip main
+
+### 多库提交
+
+如果需要一份代码发布多个远程仓库，比如github、gitlab、jetbrains space。
+
+```bash
+git remote add {NAME} {URL}
+
+# 添加多个远程仓库
+git remote add github git@github.com:mic1on/mic1on.github.io.git
+git remote add space https://git.jetbrains.space/xxx/xxx.git
+# 一次性提交多个
+git push github & git push space
+```
+当然你也可以存储为一个快捷指令：
+> alias gp="git push & git push github & git push space"
+
+这样就可以使用`gp`即可快捷操作~
