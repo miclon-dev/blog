@@ -163,6 +163,18 @@ reset 有三个选项可使用
 
 3. `--mixed`（默认） 重置位置的同时，只保留Working Tree 工作目录的內容，但会将 Index 暂存区 和 Repository 中的內容更改和 reset 目标节点一致
 
+```bash
+git reset HEAD^　　#回退所有内容到上一个版本
+git reset HEAD^　　a.py　#回退a.py这个文件的版本到上一个版本
+git reset –soft　　HEAD~3　#向前回退到第3个版本
+git reset –hard　　origin/master　#将本地的状态回退到和远程的一样
+git reset 057d　　#回退到某个版本
+git revert HEAD　#回退到上一次提交的状态，按照某一次的commit完全反向的进行一次commit
+```
+
+#### Git reset和git revert的区别
+- git reset 是回滚到对应的commit-id，相当于是删除了commit-id以后的所有的提交，并且不会产生新的commit-id记录，如果要推送到远程服务器的话，需要强制推送-f
+- git revert 是反做撤销其中的commit-id，然后重新生成一个commit-id。本身不会对其他的提交commit-id产生影响，如果要推送到远程服务器的话，就是普通的操作git push就好了
 
 ## 其他功能
 
