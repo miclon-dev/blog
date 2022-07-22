@@ -143,4 +143,12 @@ source.addEventListener('message', function (event) {
 }, false);
 ```
 
+## 结语
+
+以上是python实现sse的核心基础代码，而真正项目中则需要用到数据库等系列操作，包括消息分发给指定的接收人等等。本文主要是就业务场景而言，选择合适的技术来实现需求。
+
+
 end.
+
+参考：
+[event-source-polyfill](https://www.npmjs.com/package/event-source-polyfill)
