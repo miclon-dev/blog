@@ -89,7 +89,7 @@ Google后的解决方案是：
 
 [Django 2.2 + AttributeError: 'str' object has no attribute 'decode'](https://stackoverflow.com/questions/67024174/django-2-2-attributeerror-str-object-has-no-attribute-decode)
 
-我们在Django的[提交记录](https://github.com/django/django/commit/a41b09266dcdd01036d59d76fe926fe0386aaade)中发现了这个问题的解决方案：
+我在Django的[提交记录](https://github.com/django/django/commit/a41b09266dcdd01036d59d76fe926fe0386aaade)中发现了这个问题的解决方案：
 
 ![](https://miclon-job.oss-cn-hangzhou.aliyuncs.com/img/20220728065904.png)
 
