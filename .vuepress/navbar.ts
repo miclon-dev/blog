@@ -51,11 +51,6 @@ export default navbar([
         link: "reverse/"
       },
       {
-        text: "阅读",
-        icon: "read-fill",
-        link: "read/"
-      },
-      {
         text: "git",
         icon: "git",
         link: "git/"
@@ -69,6 +64,16 @@ export default navbar([
         text: "开源",
         icon: "github",
         link: "opensource/"
+      },
+      {
+        text: "阅读",
+        icon: "read-fill",
+        link: "read/"
+      },
+      {
+        text: "其他",
+        icon: "other",
+        link: ""
       }
     ]
   }
