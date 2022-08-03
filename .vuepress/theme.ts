@@ -15,6 +15,7 @@ export default hopeTheme({
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.svg",
+  logoDark: "/logodark.svg",
 
   repo: "mic1on/person-doc",
 
@@ -37,6 +38,7 @@ export default hopeTheme({
     intro: "/",
     medias: {
       Github: "https://github.com/mic1on",
+      Email: "jcnd@163.com"
     },
   },
 
