@@ -2,7 +2,7 @@
 title: 常用的正则表达式
 icon: tool
 order: 1
-date: 2022-08-02
+date: 2022-08-03
 category:
 - regexp
 tag:
@@ -111,8 +111,8 @@ isOriginal: true
 
 |描述 | 正则表达式 | 备注 |
 |:---: | :---: | :---: |
-| MD5格式 | `^(?:[a-f\d]{32}|[A-F\d]{32})$` |  |
+| MD5格式 | `^(?:[a-f\d]{32}\|[A-F\d]{32})$` |  |
 | UUID | `^[a-f\d]{4}(?:[a-f\d]{4}-){4}[a-f\d]{12}$` | `9419d45a-72b0-4b3c-b61d-20c4bc1c8fds` |
-| SQL语句 | `^(?:select|drop|delete|create|update|insert).*$` |  |
+| SQL语句 | `^(?:select\|drop\|delete\|create\|update\|insert).*$` |  |
 | Java包名 | `^(?:[a-zA-Z_]\w*)+(?:[.][a-zA-Z_]\w*)+$` |  |
-| 文件扩展名 | `\.(?:doc|pdf|txt)` | 按需增删扩展名集合 |
+| 文件扩展名 | `\.(?:doc\|pdf|txt)` | 按需增删扩展名集合 |
