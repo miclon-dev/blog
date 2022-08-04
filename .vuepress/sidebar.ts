@@ -37,6 +37,7 @@ export default sidebar({
   "/posts/language/vue/": "structure",
   "/posts/framework/scrapy/": "structure",
   "/posts/framework/django/": "structure",
+  "/posts/framework/apscheduler/": "structure",
   "/posts/other/reverse/": "structure",
   "/posts/other/read/": "structure",
   "/posts/other/git/": "structure",

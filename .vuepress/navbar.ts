@@ -37,6 +37,11 @@ export default navbar([
         text: "scrapy",
         icon: "spider",
         link: "scrapy/"
+      },
+      {
+        text: "apscheduler",
+        icon: "python",
+        link: "apscheduler/"
       }
     ],
   },
