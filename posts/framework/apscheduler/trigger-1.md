@@ -1,6 +1,6 @@
 ---
 title: Apscheduler源码剖析(一)-Trigger之组合触发器
-shortTitle: Apscheduler CombiningTrigger
+shortTitle: Apscheduler触发器(1)
 icon: python
 order: 1
 date: 2022-08-04

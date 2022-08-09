@@ -1,6 +1,6 @@
 ---
 title: Apscheduler源码剖析(二)-Trigger之指定/周期触发器
-shortTitle: Apscheduler Trigger
+shortTitle: Apscheduler触发器(2)
 icon: python
 order: 1
 date: 2022-08-05
