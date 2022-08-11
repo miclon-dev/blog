@@ -43,5 +43,6 @@ export default sidebar({
   "/posts/other/git/": "structure",
   "/posts/other/docker/": "structure",
   "/posts/other/opensource/": "structure",
+  "/posts/other/1loc/": "structure",
   "/posts/other/": "structure",
 })

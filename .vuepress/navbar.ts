@@ -76,6 +76,11 @@ export default navbar([
         link: "read/"
       },
       {
+        text: "1loc",
+        icon: "javascript",
+        link: "1loc/"
+      },
+      {
         text: "其他",
         icon: "other",
         link: ""
