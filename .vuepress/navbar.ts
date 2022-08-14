@@ -87,8 +87,4 @@ export default navbar([
       }
     ]
   }
-  // {
-  //   text: "阅读笔记",
-  //   link: "/"
-  // }
 ]);

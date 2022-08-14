@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "MicLon",
-    url: "https://baidu.com",
+    url: "https://52caiji.com",
   },
 
   iconAssets: "//at.alicdn.com/t/c/font_3490530_jdez6j1m1tm.css",
@@ -34,7 +34,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个编程爱好者",
+    description: "一位编程爱好者",
     intro: "/",
     medias: {
       Github: "https://github.com/mic1on",
