@@ -4,7 +4,7 @@ title: DRF源码学习-Authentication
 # 这是页面的图标
 icon: django
 # 这是侧边栏的顺序
-order: 2
+order: 1
 # 设置写作时间
 date: 2022-01-31
 # 一个页面可以有多个分类

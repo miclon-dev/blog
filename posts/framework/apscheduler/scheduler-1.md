@@ -1,8 +1,12 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: apscheduler,scheduler,python
 title: Apscheduler源码剖析-Scheduler(1)-Job篇
 shortTitle: Apscheduler调度器(1)
 icon: python
-order: 1
+order: 5
 date: 2022-08-12
 category:
 - apscheduler

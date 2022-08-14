@@ -4,7 +4,7 @@ title: DRF源码学习-Throttling
 # 这是页面的图标
 icon: django
 # 这是侧边栏的顺序
-order: 2
+order: 3
 # 设置写作时间
 date: 2021-08-29
 # 一个页面可以有多个分类

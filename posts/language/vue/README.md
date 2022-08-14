@@ -12,8 +12,13 @@ category:
 - vue
 ---
 
+
 - [Vue3自动路由注册](vue3-auto-route-registration.md)
 
 - [Vue3使用本地svg渲染icon](vue3-ues-local-svg.md)
 
+- [vuepress2.x 使用vue组件](vuepress2.x-use-vue-component.md)
+
 - [一文了解directive](vue3-directive.md)
+
+- [axios配合组件自动控制页面加载状态](vue3-axios-loading.md)

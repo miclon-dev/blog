@@ -5,7 +5,7 @@ shortTitle: django软删除
 # 这是页面的图标
 icon: django
 # 这是侧边栏的顺序
-order: 2
+order: 4
 # 设置写作时间
 date: 2022-07-08
 # 一个页面可以有多个分类
