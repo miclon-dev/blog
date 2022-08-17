@@ -27,3 +27,5 @@ category:
 - [python多种创建工厂模式场景](python-factory-mode.md)
 
 - [python猴子补丁的应用场景](python-monkey-patch.md)
+
+- [python策略模式场景](python-strategy-mode.md)

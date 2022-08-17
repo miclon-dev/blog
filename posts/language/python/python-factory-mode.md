@@ -2,7 +2,7 @@
 title: python多种创建工厂模式场景
 shortTitle: python工厂模式
 icon: python
-order: 1
+order: 3
 date: 2022-07-27
 category:
 - python
