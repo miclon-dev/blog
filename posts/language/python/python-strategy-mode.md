@@ -59,7 +59,7 @@ class Customer:
         return self.name
 
 
-class Good:
+class Goods:
     """商品类"""
 
     def __init__(self, name, price, num):
@@ -145,9 +145,9 @@ class RatePromotion(Promotion):
 
 ```python
 # 创建三个商品
-good1 = Good('apple', 10, 1)
-good2 = Good('banana', 20, 2)
-good3 = Good('orange', 30, 3)
+good1 = Goods('apple', 10, 1)
+good2 = Goods('banana', 20, 2)
+good3 = Goods('orange', 30, 3)
 
 # 创建一个消费者
 customer = Customer('米乐', 100, False)
