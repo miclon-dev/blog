@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://52caiji.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3490530_jdez6j1m1tm.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3490530_qfn2xcn1jms.css",
   // iconAssets: "/iconfont.css",
   iconPrefix: "iconfont icon-",
 
