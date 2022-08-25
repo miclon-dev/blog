@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import path from 'path'
-import registerComponentsPlugin from '@vuepress/plugin-register-components';
+// import path from 'path'
+// import registerComponentsPlugin from '@vuepress/plugin-register-components';
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -26,8 +26,8 @@ export default defineUserConfig({
 
   theme,
   plugins: [
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    })
+    // registerComponentsPlugin({
+    //   componentsDir: path.resolve(__dirname, './components'),
+    // })
   ]
 });
