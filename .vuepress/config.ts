@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import { path } from '@vuepress/utils';
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+const { path } = require('@vuepress/utils')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 import theme from "./theme";
 
 export default defineUserConfig({
