@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-const { path } = require('@vuepress/utils')
+import path from 'path'
 const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 import theme from "./theme";
 
