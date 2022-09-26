@@ -5,7 +5,7 @@ order: 1
 date: 2022-09-01
 category:
 - python
-- opensource
+- open-source
 - docs
 tag:
 - pip
@@ -19,7 +19,7 @@ isOriginal: true
 
 # DayPy模块开发文档
 
-`daypy`是使用`arrow`为基础，开发的一个插件式的时间解析模块。模块的命名及设计模式参考了`daypy`(JavaScript下的时间处理模块)。
+`daypy`是使用`arrow`为基础，开发的一个插件式的时间解析模块。模块的命名及设计模式参考了`dayjs`(JavaScript下的时间处理模块)。
 
 ## 安装
 
