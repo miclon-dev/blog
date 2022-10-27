@@ -109,3 +109,37 @@ dockerhub
 接口测试：
 
 ![](https://miclon-job.oss-cn-hangzhou.aliyuncs.com/img/20220628144133.png)
+
+### 手动触发actions
+
+有些时候，你并不想因为某些事件直接触发actions，而是想手动触发。只需要在触发器(on)上添加`workflow_dispatch`即可。
+
+比如上述的`docker-image.yml`中，我想手动触发，并且我想指定build的平台，那么可以这样写：
+
+
+```yaml
+...
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to build for'
+        required: true
+        default: 'linux/amd64,linux/arm64,linux/arm/v7'
+
+...
+
+```
+
+这样的效果就是，我们可以在github的actions中，手动触发workflow，并且可以指定平台。并且指定参数`platform`的值，会传递给镜像。
+
+我们可以通过`github.event.inputs.platform`来获取到这个值。
+
+
+![](https://miclon-job.oss-cn-hangzhou.aliyuncs.com/img/20221027091511.png)
+
+
+手动`run workflow`：
+
+![](https://miclon-job.oss-cn-hangzhou.aliyuncs.com/img/20221027091556.png)
