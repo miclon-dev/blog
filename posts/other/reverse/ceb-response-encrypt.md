@@ -7,7 +7,8 @@ date: 2022-11-18
 category:
 - 逆向
 tag:
-- 解密
+- DES
+- CryptoJS
 # 此页面会在文章列表置顶
 sticky: false
 # 此页面会出现在文章收藏中
