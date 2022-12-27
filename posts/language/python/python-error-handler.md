@@ -201,6 +201,53 @@ my_function2 division by zero
 
 这样，我们可以统一封装异常函数，由于调用异常函数时，会传入异常发生的函数和异常对象，因此我们可以在异常函数中获取异常发生的函数的信息，比如函数名、参数等。
 
+## trytry
+
+结合本次学习，笔者开发了`trytry`模块，可以实现以上全部功能，并且支持自定义函数异常处理和finally，全局异常处理。
+
+```bash
+pip install trytry
+```
+
+```python
+from trytry import trytry
+
+
+@trytry
+def my_function():
+    raise FileNotFoundError('file not found')
+
+
+@trytry
+def my_function2():
+    print(1 / 0)
+
+
+@trytry.exception(ZeroDivisionError)
+def handle_zero_division_error(func, e):
+    print(func.__name__, str(e))
+
+
+@trytry.exception(FileNotFoundError)
+def handle_file_not_found_error(func, e):
+    print(func.__name__, str(e))
+
+
+@my_function.finally_
+def my_function_finally():
+    print(my_function.__name__, "finally")
+
+
+if __name__ == '__main__':
+    my_function()
+    my_function2()
+```
+
+```text
+my_function file not found
+my_function finally
+my_function2 division by zero
+```
 ## 总结
 
 本文不仅介绍了Python中的异常处理机制，还实现了一个简单的异常装饰器。面对多个异常需要在函数后追加各种`except`语句，显得代码不够优雅，因此我们可以使用装饰器来实现异常处理，这样可以使代码更加简洁。
