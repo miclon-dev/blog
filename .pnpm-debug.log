@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "miclon-blog@2.0.0",
+    "stage": "docs:dev",
+    "script": "vuepress dev .",
+    "pkgname": "miclon-blog",
+    "err": {
+      "name": "pnpm",
+      "message": "miclon-blog@2.0.0 docs:dev: `vuepress dev .`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: miclon-blog@2.0.0 docs:dev: `vuepress dev .`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:93165:22)\n    at ChildProcess.emit (events.js:400:28)\n    at maybeClose (internal/child_process.js:1058:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)"
+    }
+  }
+}
