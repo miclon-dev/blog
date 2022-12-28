@@ -89,7 +89,7 @@ export default navbar([
   },
   {
     text: "编程参考",
-    link: "/reference/index.html",
+    link: "https://52caiji.com/reference/index.html",
     icon: "code"
   }
 ]);
