@@ -86,5 +86,10 @@ export default navbar([
         link: ""
       }
     ]
+  },
+  {
+    text: "编程参考",
+    link: "/posts/reference/",
+    icon: "code"
   }
 ]);
