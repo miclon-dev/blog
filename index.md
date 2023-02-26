@@ -19,9 +19,9 @@ projects:
     link: https://github.com/mic1on
 
   - icon: link
-    name: 代码领悟
-    desc: 我个人开发的网站
-    link: https://www.code05.com/
+    name: usepy
+    desc: 一个简单实用的python库
+    link: https://usepy.52caiji.com/
 
   - icon: project
     name: 开源
