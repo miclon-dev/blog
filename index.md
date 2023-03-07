@@ -38,6 +38,6 @@ projects:
     desc: 这只能算是业余
     link: /posts/language/vue/
 
-footer: 自律给我自由
+footer: 自律给我自由 <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023005409号-1</a>
 ---
 

@@ -13,3 +13,4 @@ node_modules/
 ./.vuepress/.temp/
 ./.vuepress/dist/
 .vuepress/dist/*
+.DS_Store
