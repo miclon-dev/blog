@@ -21,7 +21,7 @@ projects:
   - icon: link
     name: usepy
     desc: 一个简单实用的python库
-    link: https://usepy.52caiji.com/
+    link: https://usepy.code05.com/
 
   - icon: project
     name: 开源
