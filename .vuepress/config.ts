@@ -3,10 +3,6 @@ import { path } from "@vuepress/utils";
 import registerComponentsPlugin from '@vuepress/plugin-register-components';
 import theme from "./theme";
 
-console.log(path.resolve(
-  __dirname,
-  "./components/AuthorInfo.vue"
-));
 
 
 export default defineUserConfig({
@@ -32,7 +28,7 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
-      "./components/AuthorInfo.vue"
+      "./components/orInfo.vue"
     )
   },
 
