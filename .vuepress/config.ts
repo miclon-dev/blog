@@ -1,7 +1,13 @@
 import { defineUserConfig } from "vuepress";
-import path from 'path'
+import { path } from "@vuepress/utils";
 import registerComponentsPlugin from '@vuepress/plugin-register-components';
 import theme from "./theme";
+
+console.log(path.resolve(
+  __dirname,
+  "./components/AuthorInfo.vue"
+));
+
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -12,9 +18,9 @@ export default defineUserConfig({
 
   head: [
     [
-    'script',
-    {},
-    `var _hmt = _hmt || [];
+      'script',
+      {},
+      `var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?4845d5bae0cf1fabe802fdb0fe6dfc0b";
@@ -23,6 +29,12 @@ export default defineUserConfig({
     })();`
     ]
   ],
+  alias: {
+    "@theme-hope/components/HomePage": path.resolve(
+      __dirname,
+      "./components/AuthorInfo.vue"
+    )
+  },
 
   theme,
   plugins: [

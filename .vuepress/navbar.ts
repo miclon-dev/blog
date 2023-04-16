@@ -42,6 +42,11 @@ export default navbar([
         text: "apscheduler",
         icon: "python",
         link: "apscheduler/"
+      },
+      {
+        text: "fastapi",
+        icon: "fastapi",
+        link: "fastapi/"
       }
     ],
   },
