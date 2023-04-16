@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://52caiji.com/sitemap.xml

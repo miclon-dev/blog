@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as r,c}from"./app.c099355f.js";const n={},o={id:"mainiframe",width:"100%",height:"1600",src:"/reference/index.html",frameborder:"0",scrolling:"auto"};function _(t,a){return r(),c("iframe",o)}var d=e(n,[["render",_],["__file","docs-reference.vue"]]);export{d as default};
