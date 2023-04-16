@@ -25,12 +25,6 @@ export default defineUserConfig({
     })();`
     ]
   ],
-  alias: {
-    "@theme-hope/components/HomePage": path.resolve(
-      __dirname,
-      "./components/orInfo.vue"
-    )
-  },
 
   theme,
   plugins: [
